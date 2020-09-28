@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  display: block;
+  margin: 0;
+  padding: 3rem 0;
+  font-weight: bold;
+  line-height: 7rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 3.5rem;
+}
+
+.c0 span:last-of-type {
+  display: block;
+}
+
+.c0 span:last-of-type::after {
+  content: '.';
+}
+
+.c3 {
+  display: block;
+  margin: 0;
+  padding: 3rem 0;
+  font-weight: bold;
+  line-height: 7rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 3.5rem;
+}
+
+.c3 span:last-of-type {
+  display: block;
+}
+
+.c3 span:last-of-type::after {
+  content: '.';
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 8rem;
+  min-height: 60vh;
+}
+
+.c1 h1 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .props-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-basis: 30%;
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 30%;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c1 .props-list__item {
+  margin: .5rem;
+}
+
+.c1 .props-list__item * {
+  display: block;
+}
+
+.c1 .props-list__item__label {
+  font-weight: bold;
+}
+
+.c1 .props-list__item__value {
+  text-transform: uppercase;
+}
+
+.c4 {
+  position: absolute;
+  top: 7%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 1.8142234606685448s;
+  animation-duration: 1.8142234606685448s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-delay: 2.1683728943844454s;
+  animation-delay: 2.1683728943844454s;
+}
+
+.c4.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c4.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c4.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c5 {
+  position: absolute;
+  top: 78%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 2.734782784461272s;
+  animation-duration: 2.734782784461272s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-delay: 1.8721411329185182s;
+  animation-delay: 1.8721411329185182s;
+}
+
+.c5.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c5.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c5.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c6 {
+  position: absolute;
+  top: 54%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 2.0750354533370285s;
+  animation-duration: 2.0750354533370285s;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-animation-delay: 0.5359034752235692s;
+  animation-delay: 0.5359034752235692s;
+}
+
+.c6.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c6.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c6.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c7 {
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 1.477376004546594s;
+  animation-duration: 1.477376004546594s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-delay: 0.9363482486999128s;
+  animation-delay: 0.9363482486999128s;
+}
+
+.c7.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c7.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c7.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c8 {
+  position: absolute;
+  top: 97%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 1.2922471485630096s;
+  animation-duration: 1.2922471485630096s;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-animation-delay: 2.69671511724757s;
+  animation-delay: 2.69671511724757s;
+}
+
+.c8.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c8.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c8.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c9 {
+  position: absolute;
+  top: 63%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 2.0761001443398244s;
+  animation-duration: 2.0761001443398244s;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-animation-delay: 1.5061968355985451s;
+  animation-delay: 1.5061968355985451s;
+}
+
+.c9.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c9.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c9.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c10 {
+  position: absolute;
+  top: 77%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 2.70133680358218s;
+  animation-duration: 2.70133680358218s;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-animation-delay: 2.2145629520553527s;
+  animation-delay: 2.2145629520553527s;
+}
+
+.c10.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c10.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c10.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c11 {
+  position: absolute;
+  top: 40%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 2.5300358823780833s;
+  animation-duration: 2.5300358823780833s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-delay: 2.0636591171964103s;
+  animation-delay: 2.0636591171964103s;
+}
+
+.c11.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c11.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c11.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c12 {
+  position: absolute;
+  top: 34%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 1.791760676038542s;
+  animation-duration: 1.791760676038542s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-delay: 1.434357885715213s;
+  animation-delay: 1.434357885715213s;
+}
+
+.c12.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c12.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c12.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c13 {
+  position: absolute;
+  top: 13%;
+  left: -200px;
+  width: 30px;
+  height: 6px;
+  background: #FFF;
+  border-radius: 10px;
+  z-index: -1;
+  -webkit-animation: fire-projectile infinite ease-in;
+  animation: fire-projectile infinite ease-in;
+  -webkit-animation-duration: 0.9463123396375512s;
+  animation-duration: 0.9463123396375512s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-delay: 2.1678878590482196s;
+  animation-delay: 2.1678878590482196s;
+}
+
+.c13.-red {
+  box-shadow: 10px 0 25px #b62321,inset 0px 0 10px #b62321;
+}
+
+.c13.-green {
+  box-shadow: 10px 0 25px #4aa942,inset 0px 0 10px #4aa942;
+}
+
+.c13.-blue {
+  box-shadow: 10px 0 25px #5f9fdd,inset 0px 0 10px #5f9fdd;
+}
+
+.c2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 0;
+  overflow-x: hidden;
+  z-index: 1;
+  pointer-events: none;
+  -webkit-animation: pulse-bg 1s infinite alternate;
+  animation: pulse-bg 1s infinite alternate;
+}
+
+<div
+  className="flex"
+>
+  <main
+    className="content-wrapper"
+  >
+    <a
+      className="c0"
+      href="/"
+    >
+      <span>
+        Star Wars
+      </span>
+      <span>
+        Universe
+      </span>
+    </a>
+    <article
+      className="c1"
+    >
+      <section
+        className="c2"
+      >
+        <div
+          className="content-wrapper"
+        >
+          <a
+            className="c3"
+            href="/"
+          >
+            <span>
+              Star Wars
+            </span>
+            <span>
+              Universe
+            </span>
+          </a>
+        </div>
+        <div
+          className="c4 -green"
+          direction="normal"
+          y={7}
+        />
+        <div
+          className="c5 -green"
+          direction="normal"
+          y={78}
+        />
+        <div
+          className="c6 -green"
+          direction="reverse"
+          y={54}
+        />
+        <div
+          className="c7 -blue"
+          direction="normal"
+          y={50}
+        />
+        <div
+          className="c8 -blue"
+          direction="reverse"
+          y={97}
+        />
+        <div
+          className="c9 -blue"
+          direction="reverse"
+          y={63}
+        />
+        <div
+          className="c10 -blue"
+          direction="reverse"
+          y={77}
+        />
+        <div
+          className="c11 -blue"
+          direction="normal"
+          y={40}
+        />
+        <div
+          className="c12 -green"
+          direction="normal"
+          y={34}
+        />
+        <div
+          className="c13 -green"
+          direction="normal"
+          y={13}
+        />
+      </section>
+    </article>
+  </main>
+</div>
+`;

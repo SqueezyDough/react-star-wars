@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  padding: 0;
+  border: none;
+}
+
+.c0 a {
+  display: inline-block;
+  padding: .5rem 2rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.c0 a:hover {
+  -webkit-transform: skew(-10deg);
+  -ms-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+
+<div
+  className="c0"
+>
+  <a />
+</div>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  .c0 {
+  display: block;
+  margin: 0;
+  padding: 3rem 0;
+  font-weight: bold;
+  line-height: 7rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 3.5rem;
+}
+
+.c0 span:last-of-type {
+  display: block;
+}
+
+.c0 span:last-of-type::after {
+  content: '.';
+}
+
+<a
+    className="c0"
+    href="/"
+  >
+    <span>
+      Star Wars
+    </span>
+    <span>
+      Universe
+    </span>
+  </a>,
+  <h1>
+    This page does not exist in our observable universe.
+  </h1>,
+  .c0 {
+  padding: 0;
+  border: none;
+}
+
+.c0 a {
+  display: inline-block;
+  padding: .5rem 2rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.c0 a:hover {
+  -webkit-transform: skew(-10deg);
+  -ms-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+
+<div
+    className="c0"
+  >
+    <a
+      href="/"
+    >
+      Home
+    </a>
+  </div>,
+]
+`;

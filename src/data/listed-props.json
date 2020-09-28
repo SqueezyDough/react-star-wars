@@ -1,0 +1,56 @@
+
+{
+  "people" : [
+    "birth_year",
+    "gender",
+    "hair_color",
+    "eye_color",
+    "mass",
+    "skin_color",
+    "homeworld"
+  ],
+  "planets" : [
+    "climate",
+    "diameter",
+    "gravity",
+    "rotation_period",
+    "surface_water",
+    "terrain"
+  ],
+  "films" : [
+    "director",
+    "producer",
+    "release_date"
+  ],
+  "species" : [
+    "classification",
+    "language",
+    "homeworld",
+    "average_height",
+    "average_lifespan",
+    "skin_colors",
+    "designation"
+  ],
+  "vehicles" : [
+    "model",
+    "manufacturer",
+    "crew",
+    "max_atmospheric_speed",
+    "length",
+    "cargo_capacity",
+    "vehicle_class",
+    "crew"
+  ],
+  "starships" : [
+    "model",
+    "manufacturer",
+    "crew",
+    "max_atmospheric_speed",
+    "hyperdrive_rating",
+    "length",
+    "passengers",
+    "cargo_capacity",
+    "starship_class",
+    "crew"
+  ]
+}

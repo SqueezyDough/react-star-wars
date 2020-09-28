@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  display: inline;
+}
+
+.c0 select {
+  margin: 3rem .5rem 0;
+  padding: .5rem 1rem;
+  border: none;
+}
+
+<div
+  className="c0"
+>
+  <select
+    onChange={[Function]}
+    value=""
+  >
+    <option
+      value="name"
+    >
+      name
+    </option>
+  </select>
+</div>
+`;

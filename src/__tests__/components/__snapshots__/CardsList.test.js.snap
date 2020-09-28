@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  .c1 {
+  position: absolute;
+  width: 100%;
+  min-height: 60vh;
+  z-index: 1;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-top: 5rem;
+  padding: 1rem 0;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+}
+
+.c0 ~ section {
+  display: none;
+}
+
+.c0.done ~ section {
+  display: block;
+}
+
+.c0 .load-image {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transform: skewX(30deg);
+  -ms-transform: skewX(30deg);
+  transform: skewX(30deg);
+  -webkit-animation: skew .5s forwards;
+  animation: skew .5s forwards;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.c0 .load-image img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  left: -1000px;
+  -webkit-animation: slide 1s forwards;
+  animation: slide 1s forwards;
+}
+
+.c3 {
+  -webkit-transition: background;
+  transition: background;
+  text-align: center;
+  -webkit-animation: pulse 1s infinite alternate;
+  animation: pulse 1s infinite alternate;
+}
+
+.c3:first-of-type {
+  grid-column: 2;
+}
+
+.c3 .card {
+  padding: 10%;
+}
+
+.c3 .card__short-title {
+  font-weight: bold;
+}
+
+<section
+    className="c0 "
+  >
+    <div
+      className="c1"
+    />
+    <div
+      className="c2"
+    >
+      <div
+        className="load-image loader"
+      >
+        <img
+          alt=""
+          src={"http://localhost/sw-loading.gif"}
+        />
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+      <div
+        className="c3 loader"
+      >
+        <article
+          className="card"
+        >
+          <span
+            className="card__short-title"
+          >
+            L
+          </span>
+          <h1
+            className="card__title"
+          >
+            Loading...
+          </h1>
+        </article>
+      </div>
+    </div>
+  </section>,
+  .c0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-top: 5rem;
+  padding: 1rem 0;
+}
+
+<section>
+    <div
+      className="c0"
+    />
+  </section>,
+]
+`;

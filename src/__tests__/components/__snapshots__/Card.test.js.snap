@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with name 1`] = `
+.c0 {
+  -webkit-transition: background;
+  transition: background;
+  text-align: center;
+}
+
+.c0 .card {
+  padding: 10%;
+}
+
+.c0 .card__short-title {
+  font-weight: bold;
+}
+
+<a
+  className="c0"
+  href={"http://localhost/people/1/"}
+>
+  <article
+    className="card"
+  >
+    <span
+      className="card__short-title"
+    >
+      n
+    </span>
+    <h1
+      className="card__title"
+    >
+      name
+    </h1>
+  </article>
+</a>
+`;
+
+exports[`renders correctly with title 1`] = `
+.c0 {
+  -webkit-transition: background;
+  transition: background;
+  text-align: center;
+}
+
+.c0 .card {
+  padding: 10%;
+}
+
+.c0 .card__short-title {
+  font-weight: bold;
+}
+
+<a
+  className="c0"
+  href={"http://localhost/people/1/"}
+>
+  <article
+    className="card"
+  >
+    <span
+      className="card__short-title"
+    >
+      t
+    </span>
+    <h1
+      className="card__title"
+    >
+      title
+    </h1>
+  </article>
+</a>
+`;

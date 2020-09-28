@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  -webkit-transition: background;
+  transition: background;
+  text-align: center;
+  -webkit-animation: pulse 1s infinite alternate;
+  animation: pulse 1s infinite alternate;
+}
+
+.c0:first-of-type {
+  grid-column: 2;
+}
+
+.c0 .card {
+  padding: 10%;
+}
+
+.c0 .card__short-title {
+  font-weight: bold;
+}
+
+<div
+  className="c0"
+>
+  <article
+    className="card"
+  >
+    <span
+      className="card__short-title"
+    >
+      L
+    </span>
+    <h1
+      className="card__title"
+    >
+      Loading...
+    </h1>
+  </article>
+</div>
+`;
