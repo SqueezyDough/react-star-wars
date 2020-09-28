@@ -22,13 +22,14 @@ This project was intended for educational purposes to learn React.js and the cod
 ### Description
 Star Wars Universe (SWU) shows characters and other entities from the Star Wars universe. 
 
-![HOME](https://bitbucket.org/infonl/internship-bootcamp/downloads/sw-home.png)
+![image](https://user-images.githubusercontent.com/33430653/94445009-3e38ad00-01a7-11eb-8f28-1cc871967202.png)
 
 The user sees an overview of all selected characters, filtered by category.
 
 ---
 
-![HOME](https://bitbucket.org/infonl/internship-bootcamp/downloads/sw-details.png)
+![image](https://user-images.githubusercontent.com/33430653/94445028-455fbb00-01a7-11eb-81aa-8ca33cdd2519.png)
+
 
 The user sees character details and a list of other characters from that category that includes the first character in its name.
 
